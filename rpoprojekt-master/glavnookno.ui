@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>glavnookno</class>
+ <widget class="QMainWindow" name="glavnookno">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>559</width>
+    <height>607</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>334</width>
+    <height>427</height>
+   </size>
+  </property>
+  <property name="acceptDrops">
+   <bool>false</bool>
+  </property>
+  <property name="windowTitle">
+   <string>Štiri v vrsto</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="resource.qrc">
+    <normaloff>:/img/icon.png</normaloff>:/img/icon.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <property name="documentMode">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/img/Ozadje2.png) 0 0 0 0 stretch;</string>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_5">
+    <item>
+     <widget class="QFrame" name="frame">
+      <property name="styleSheet">
+       <string notr="true">border: none;
+border-image:none;</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout">
+           <item>
+            <widget class="QLineEdit" name="txtIgralec1">
+             <property name="minimumSize">
+              <size>
+               <width>125</width>
+               <height>22</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>125</width>
+               <height>22</height>
+              </size>
+             </property>
+             <property name="font">
+              <font>
+               <family>Noto Sans UI</family>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
+             </property>
+             <property name="inputMask">
+              <string/>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="frame">
+              <bool>false</bool>
+             </property>
+             <property name="readOnly">
+              <bool>true</bool>
+             </property>
+             <property name="placeholderText">
+              <string>Igralec 1</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout">
+             <item>
+              <widget class="QLabel" name="lblScore1">
+               <property name="minimumSize">
+                <size>
+                 <width>58</width>
+                 <height>58</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>58</width>
+                 <height>58</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 75 16pt &quot;Noto Sans&quot;;</string>
+               </property>
+               <property name="text">
+                <string>0</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QFrame" name="frame_2">
+               <property name="minimumSize">
+                <size>
+                 <width>58</width>
+                 <height>58</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>58</width>
+                 <height>58</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">border-image: url(:/img/zeton1.png);</string>
+               </property>
+               <property name="frameShape">
+                <enum>QFrame::NoFrame</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Plain</enum>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_4">
+           <item>
+            <widget class="QLineEdit" name="cas">
+             <property name="font">
+              <font>
+               <family>Noto Sans UI</family>
+               <pointsize>16</pointsize>
+              </font>
+             </property>
+             <property name="autoFillBackground">
+              <bool>false</bool>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255, 150);</string>
+             </property>
+             <property name="text">
+              <string>00:00:00</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+             <property name="readOnly">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_4">
+             <item>
+              <widget class="QPushButton" name="volume">
+               <property name="minimumSize">
+                <size>
+                 <width>50</width>
+                 <height>50</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>50</width>
+                 <height>50</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">#volume
+{
+	border-image: url(:/img/SoundON.png);
+}
+/*#volume:clicked
+{
+	border-image: url(:/img/SoundOFF.png);
+}*/</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="undo">
+               <property name="maximumSize">
+                <size>
+                 <width>80</width>
+                 <height>52</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-image: url(:/img/undo.png);
+border: none;
+background-color: rgba(255,255,255,0);</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_2">
+           <item>
+            <widget class="QLineEdit" name="txtIgralec2">
+             <property name="minimumSize">
+              <size>
+               <width>125</width>
+               <height>22</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>125</width>
+               <height>22</height>
+              </size>
+             </property>
+             <property name="font">
+              <font>
+               <family>Noto Sans UI</family>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
+             </property>
+             <property name="frame">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+             </property>
+             <property name="readOnly">
+              <bool>true</bool>
+             </property>
+             <property name="placeholderText">
+              <string>Igralec 2</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_2">
+             <item>
+              <widget class="QFrame" name="frame_3">
+               <property name="minimumSize">
+                <size>
+                 <width>58</width>
+                 <height>58</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>58</width>
+                 <height>58</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">border-image: url(:/img/zeton2.png);</string>
+               </property>
+               <property name="frameShape">
+                <enum>QFrame::NoFrame</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Plain</enum>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="lblScore2">
+               <property name="minimumSize">
+                <size>
+                 <width>58</width>
+                 <height>58</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>58</width>
+                 <height>58</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 75 16pt &quot;Noto Sans&quot;;</string>
+               </property>
+               <property name="text">
+                <string>0</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QGridLayout" name="igralnaP">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <item row="3" column="1">
+          <widget class="QWidget" name="polje30" native="true">
+           <property name="styleSheet">
+            <string notr="true">border-image: url(:/img/tile.png);
+background-color: rgba(255, 255, 255, 200);</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="1">
+          <widget class="QWidget" name="polje50" native="true">
+           <property name="styleSheet">
+            <string notr="true">border-image: url(:/img/tile.png);
+background-color: rgba(255, 255, 255, 200);</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QWidget" name="polje20" native="true">
+           <property name="styleSheet">
+            <string notr="true">border-image: url(:/img/tile.png);
+background-color: rgba(255, 255, 255, 200);</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="2">
+          <widget class="QWidget" name="polje11" native="true">
+           <property name="styleSheet">
+            <string notr="true">border-image: url(:/img/tile.png);
+background-color: rgba(255, 255, 255, 200);</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="5">
+          <widget class="QWidget" name="polje04" native="true">
+           <property name="styleSheet">
+            <string notr="true">border-image: url(:/img/tile.png);
+background-color: rgba(255, 255, 255, 200);</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="2">
+          <widget class="QWidget" name="polje41" native="true">
+           <property name="styleSheet">
+            <string notr="true">border-image: url(:/img/tile.png);
+background-color: rgba(255, 255, 255, 200);</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="4">
+          <widget class="QWidget" name="polje03" native="true">
+           <property name="styleSheet">
+            <string notr="true">border-image: url(:/img/tile.png);
+background-color: rgba(255, 255, 255, 200);</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="2">
+          <widget class="QWidget" name="polje01" native="true">
+           <property name="styleSheet">
+            <string notr="true">border-image: url(:/img/tile.png);
+background-color: rgba(255, 255, 255, 200);</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="6">
+          <widget class="QWidget" name="polje05" native="true">
+           <property name="styleSheet">
+            <string notr="true">border-image: url(:/img/tile.png);
+background-color: rgba(255, 255, 255, 200);</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QWidget" name="polje00" native="true">
+           <property name="styleSheet">
+            <string notr="true">border-image: url(:/img/tile.png);
+background-color: rgba(255, 255, 255, 200);</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="2">
+          <widget class="QWidget" name="polje51" native="true">
+           <property name="styleSheet">
+            <string notr="true">border-image: url(:/img/tile.png);
+background-color: rgba(255, 255, 255, 200);</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="2">
+          <widget class="QWidget" name="polje21" native="true">
+           <property name="styleSheet">
+            <string notr="true">border-image: url(:/img/tile.png);
+background-color: rgba(255, 255, 255, 200);</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="3">
+          <widget class="QWidget" name="polje02" native="true">
+           <property name="styleSheet">
+            <string notr="true">border-image: url(:/img/tile.png);
+background-color: rgba(255, 255, 255, 200);</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="1">
+          <widget class="QWidget" name="polje40" native="true">
+           <property name="styleSheet">
+            <string notr="true">border-image: url(:/img/tile.png);
+background-color: rgba(255, 255, 255, 200);</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QWidget" name="polje10" native="true">
+           <property name="styleSheet">
+            <string notr="true">border-image: url(:/img/tile.png);
+background-color: rgba(255, 255, 255, 200);</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="2">
+          <widget class="QWidget" name="polje31" native="true">
+           <property name="styleSheet">
+            <string notr="true">border-image: url(:/img/tile.png);
+background-color: rgba(255, 255, 255, 200);</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="7">
+          <widget class="QWidget" name="polje06" native="true">
+           <property name="styleSheet">
+            <string notr="true">border-image: url(:/img/tile.png);
+background-color: rgba(255, 255, 255, 200);</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="3">
+          <widget class="QWidget" name="polje12" native="true">
+           <property name="styleSheet">
+            <string notr="true">border-image: url(:/img/tile.png);
+background-color: rgba(255, 255, 255, 200);</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="3">
+          <widget class="QWidget" name="polje22" native="true">
+           <property name="styleSheet">
+            <string notr="true">border-image: url(:/img/tile.png);
+background-color: rgba(255, 255, 255, 200);</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="3">
+          <widget class="QWidget" name="polje32" native="true">
+           <property name="styleSheet">
+            <string notr="true">border-image: url(:/img/tile.png);
+background-color: rgba(255, 255, 255, 200);</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="3">
+          <widget class="QWidget" name="polje42" native="true">
+           <property name="styleSheet">
+            <string notr="true">border-image: url(:/img/tile.png);
+background-color: rgba(255, 255, 255, 200);</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="3">
+          <widget class="QWidget" name="polje52" native="true">
+           <property name="styleSheet">
+            <string notr="true">border-image: url(:/img/tile.png);
+background-color: rgba(255, 255, 255, 200);</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="4">
+          <widget class="QWidget" name="polje13" native="true">
+           <property name="styleSheet">
+            <string notr="true">border-image: url(:/img/tile.png);
+background-color: rgba(255, 255, 255, 200);</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="4">
+          <widget class="QWidget" name="polje23" native="true">
+           <property name="styleSheet">
+            <string notr="true">border-image: url(:/img/tile.png);
+background-color: rgba(255, 255, 255, 200);</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="4">
+          <widget class="QWidget" name="polje33" native="true">
+           <property name="styleSheet">
+            <string notr="true">border-image: url(:/img/tile.png);
+background-color: rgba(255, 255, 255, 200);</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="4">
+          <widget class="QWidget" name="polje43" native="true">
+           <property name="styleSheet">
+            <string notr="true">border-image: url(:/img/tile.png);
+background-color: rgba(255, 255, 255, 200);</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="4">
+          <widget class="QWidget" name="polje53" native="true">
+           <property name="styleSheet">
+            <string notr="true">border-image: url(:/img/tile.png);
+background-color: rgba(255, 255, 255, 200);</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="5">
+          <widget class="QWidget" name="polje14" native="true">
+           <property name="styleSheet">
+            <string notr="true">border-image: url(:/img/tile.png);
+background-color: rgba(255, 255, 255, 200);</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="5">
+          <widget class="QWidget" name="polje24" native="true">
+           <property name="styleSheet">
+            <string notr="true">border-image: url(:/img/tile.png);
+background-color: rgba(255, 255, 255, 200);</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="5">
+          <widget class="QWidget" name="polje34" native="true">
+           <property name="styleSheet">
+            <string notr="true">border-image: url(:/img/tile.png);
+background-color: rgba(255, 255, 255, 200);</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="5">
+          <widget class="QWidget" name="polje44" native="true">
+           <property name="styleSheet">
+            <string notr="true">border-image: url(:/img/tile.png);
+background-color: rgba(255, 255, 255, 200);</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="5">
+          <widget class="QWidget" name="polje54" native="true">
+           <property name="styleSheet">
+            <string notr="true">border-image: url(:/img/tile.png);
+background-color: rgba(255, 255, 255, 200);</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="6">
+          <widget class="QWidget" name="polje15" native="true">
+           <property name="styleSheet">
+            <string notr="true">border-image: url(:/img/tile.png);
+background-color: rgba(255, 255, 255, 200);</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="7">
+          <widget class="QWidget" name="polje16" native="true">
+           <property name="styleSheet">
+            <string notr="true">border-image: url(:/img/tile.png);
+background-color: rgba(255, 255, 255, 200);</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="7">
+          <widget class="QWidget" name="polje26" native="true">
+           <property name="styleSheet">
+            <string notr="true">border-image: url(:/img/tile.png);
+background-color: rgba(255, 255, 255, 200);</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="7">
+          <widget class="QWidget" name="polje36" native="true">
+           <property name="styleSheet">
+            <string notr="true">border-image: url(:/img/tile.png);
+background-color: rgba(255, 255, 255, 200);</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="7">
+          <widget class="QWidget" name="polje46" native="true">
+           <property name="styleSheet">
+            <string notr="true">border-image: url(:/img/tile.png);
+background-color: rgba(255, 255, 255, 200);</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="6">
+          <widget class="QWidget" name="polje35" native="true">
+           <property name="styleSheet">
+            <string notr="true">border-image: url(:/img/tile.png);
+background-color: rgba(255, 255, 255, 200);</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="6">
+          <widget class="QWidget" name="polje25" native="true">
+           <property name="styleSheet">
+            <string notr="true">border-image: url(:/img/tile.png);
+background-color: rgba(255, 255, 255, 200);</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="6">
+          <widget class="QWidget" name="polje45" native="true">
+           <property name="styleSheet">
+            <string notr="true">border-image: url(:/img/tile.png);
+background-color: rgba(255, 255, 255, 200);</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="6">
+          <widget class="QWidget" name="polje55" native="true">
+           <property name="styleSheet">
+            <string notr="true">border-image: url(:/img/tile.png);
+background-color: rgba(255, 255, 255, 200);</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="7">
+          <widget class="QFrame" name="frame_4">
+           <property name="styleSheet">
+            <string notr="true">border-image: url(:/img/tile.png);
+background-color: rgba(255, 255, 255, 200);</string>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>559</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_tiri_v_vrsto">
+    <property name="title">
+     <string>Štiri v vrsto</string>
+    </property>
+    <addaction name="actionZacni_igro"/>
+    <addaction name="actionZapri"/>
+    <addaction name="actionUndo"/>
+   </widget>
+   <addaction name="menu_tiri_v_vrsto"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar">
+   <property name="statusTip">
+    <string/>
+   </property>
+   <property name="sizeGripEnabled">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <action name="actionZapri">
+   <property name="text">
+    <string>Zapri</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Q</string>
+   </property>
+  </action>
+  <action name="actionZacni_igro">
+   <property name="text">
+    <string>Nova igra</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+N</string>
+   </property>
+  </action>
+  <action name="actionZmagovalec1">
+   <property name="text">
+    <string>Zmagovalec1</string>
+   </property>
+  </action>
+  <action name="actionZmagovalec2">
+   <property name="text">
+    <string>Zmagovalec2</string>
+   </property>
+  </action>
+  <action name="actionNedolo_eno">
+   <property name="text">
+    <string>Nedoločeno</string>
+   </property>
+  </action>
+  <action name="actionUndo">
+   <property name="text">
+    <string>Undo</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Z</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>actionZapri</sender>
+   <signal>triggered()</signal>
+   <receiver>glavnookno</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>227</x>
+     <y>172</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

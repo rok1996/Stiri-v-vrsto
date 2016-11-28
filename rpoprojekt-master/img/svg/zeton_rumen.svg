@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="519.64661"
+   height="519.6886"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   inkscape:export-filename="/home/vladimir/Projects/rpoprojekt/SLIKE/zeton2.png"
+   inkscape:export-xdpi="22.168449"
+   inkscape:export-ydpi="22.168449"
+   sodipodi:docname="zeton_rumen.svg">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient5318"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#9b0000;stop-opacity:1;"
+         offset="0"
+         id="stop5320" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="-741.55348"
+     inkscape:cy="339.13775"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="715"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-121.59325,-281.08553)">
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffff00;fill-opacity:1;fill-rule:nonzero;stroke:#ffbe00;stroke-width:15.64199924;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path2989"
+       sodipodi:cx="288.57144"
+       sodipodi:cy="352.36218"
+       sodipodi:rx="185.71428"
+       sodipodi:ry="185.71428"
+       d="M 474.28572,352.36218 A 185.71428,185.71428 0 0 1 288.57144,538.07646 185.71428,185.71428 0 0 1 102.85716,352.36218 185.71428,185.71428 0 0 1 288.57144,166.6479 185.71428,185.71428 0 0 1 474.28572,352.36218 Z"
+       transform="matrix(1.3425393,0,0,1.3425394,-5.98994,67.87349)" />
+    <a
+       id="a5354"
+       transform="translate(131.42857,288.57143)"
+       style="fill:#ffff00;fill-opacity:1;stroke:#ff9600;stroke-opacity:1">
+      <path
+         transform="matrix(1.4285714,0,0,1.4285714,-123.46937,-183.66543)"
+         d="m 411.42856,305.21933 a 150,150 0 0 1 -150,150 150,150 0 0 1 -150,-150 150,150 0 0 1 150,-150 150,150 0 0 1 150,150 z"
+         sodipodi:ry="150"
+         sodipodi:rx="150"
+         sodipodi:cy="305.21933"
+         sodipodi:cx="261.42856"
+         id="path3759"
+         style="fill:#ffff00;fill-opacity:1;fill-rule:nonzero;stroke:#ffbe00;stroke-width:14.70000076;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="arc" />
+    </a>
+    <rect
+       style="fill:#ffbe00;fill-opacity:1;fill-rule:nonzero;stroke:#ffbe00;stroke-width:18.90774155;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect5395"
+       width="177.50124"
+       height="177.50124"
+       x="565.29266"
+       y="-60.403496"
+       transform="matrix(0.60960669,0.79270403,-0.60960669,0.79270403,0,0)" />
+  </g>
+</svg>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="150"
+   height="150.00002"
+   id="svg3014"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="gumb_DA.svg"
+   inkscape:export-filename="/home/vladimir/Projects/rpoprojekt/SLIKE/Da.png"
+   inkscape:export-xdpi="76.800003"
+   inkscape:export-ydpi="76.800003">
+  <defs
+     id="defs3016" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="57.042858"
+     inkscape:cy="81.304325"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1366"
+     inkscape:window-height="715"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-center="true" />
+  <metadata
+     id="metadata3019">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-147.85714,-545.9336)">
+    <g
+       id="g3935"
+       transform="matrix(0.74999999,0,0,0.74999999,60.085819,127.71899)">
+      <g
+         style="fill:#ff0000;fill-opacity:1;stroke:#960000;stroke-opacity:1"
+         inkscape:label="Layer 1"
+         id="layer1-3"
+         transform="matrix(0.38486893,0,0,0.38486893,70.228433,449.43096)">
+        <g
+           style="fill:#ff0000;fill-opacity:1;stroke:#960000;stroke-opacity:1"
+           id="g5409-2"
+           transform="translate(131.42857,288.57143)"
+           inkscape:export-filename="C:\Users\Rok\Desktop\zeton2.png"
+           inkscape:export-xdpi="514"
+           inkscape:export-ydpi="514">
+          <path
+             transform="matrix(1.3425393,0,0,1.3425394,-137.41851,-220.69794)"
+             d="M 474.28572,352.36218 A 185.71428,185.71428 0 0 1 288.57144,538.07646 185.71428,185.71428 0 0 1 102.85716,352.36218 185.71428,185.71428 0 0 1 288.57144,166.6479 185.71428,185.71428 0 0 1 474.28572,352.36218 Z"
+             sodipodi:ry="185.71428"
+             sodipodi:rx="185.71428"
+             sodipodi:cy="352.36218"
+             sodipodi:cx="288.57144"
+             id="path2989-2"
+             style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:#960000;stroke-width:15.64199924;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+             sodipodi:type="arc" />
+          <a
+             style="fill:#ff0000;fill-opacity:1;stroke:#960000;stroke-opacity:1"
+             transform="translate(-3.2817686e-7,-2.0944274e-6)"
+             id="a5354-1">
+            <path
+               sodipodi:type="arc"
+               style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:#960000;stroke-width:14.70000076;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+               id="path3759-6"
+               sodipodi:cx="261.42856"
+               sodipodi:cy="305.21933"
+               sodipodi:rx="150"
+               sodipodi:ry="150"
+               d="m 411.42856,305.21933 a 150,150 0 0 1 -150,150 150,150 0 0 1 -150,-150 150,150 0 0 1 150,-150 150,150 0 0 1 150,150 z"
+               transform="matrix(1.4285714,0,0,1.4285714,-123.46937,-183.66543)" />
+          </a>
+          <rect
+             transform="matrix(0.60960669,0.79270403,-0.60960669,0.79270403,0,0)"
+             y="-134.62279"
+             x="275.47766"
+             height="177.50124"
+             width="177.50124"
+             id="rect5395-8"
+             style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:#960000;stroke-width:18.90774155;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+        </g>
+      </g>
+      <rect
+         transform="matrix(0.60641631,0.79514732,-0.60641631,0.79514732,0,0)"
+         y="206.81987"
+         x="561.99463"
+         height="59.160583"
+         width="59.160583"
+         id="rect3933"
+         style="fill:#960000;fill-opacity:1;fill-rule:nonzero;stroke:#960000;stroke-width:10.18338013;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3944"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:'Adobe Naskh Medium';-inkscape-font-specification:'Adobe Naskh Medium';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(1.2069085,0,0,1.2091711,12.380592,-113.38466)"><flowRegion
+         id="flowRegion3946"><rect
+           id="rect3948"
+           width="58.884731"
+           height="46.348209"
+           x="144.24979"
+           y="582.84326" /></flowRegion><flowPara
+         id="flowPara3950"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans'">DA</flowPara></flowRoot>  </g>
+</svg>

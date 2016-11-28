@@ -1,0 +1,27 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/Da.png</file>
+        <file>img/draw.png</file>
+        <file>img/gumb_Izhod.png</file>
+        <file>img/gumb_Nova_igra.png</file>
+        <file>img/gumb1.png</file>
+        <file>img/gumb2.png</file>
+        <file>img/IgralnaPovršina.png</file>
+        <file>img/Ne.png</file>
+        <file>img/Ozadje1.png</file>
+        <file>img/tile.png</file>
+        <file>img/zeton1.png</file>
+        <file>img/zeton2.png</file>
+        <file>img/zmaga1.png</file>
+        <file>img/tileR.png</file>
+        <file>img/tileY.png</file>
+        <file>img/Ozadje2.png</file>
+        <file>img/icon.png</file>
+        <file>img/SoundON.png</file>
+        <file>img/SoundOFF.png</file>
+        <file>img/undo.png</file>
+    </qresource>
+    <qresource prefix="/audio">
+        <file>audio/music.wav</file>
+    </qresource>
+</RCC>
