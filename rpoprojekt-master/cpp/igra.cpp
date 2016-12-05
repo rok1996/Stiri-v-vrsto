@@ -3,8 +3,10 @@
 
 Igra::Igra(): i1(NULL), i2(NULL), polje(NULL), naVrsti(NULL), l(false){}
 Igra::Igra(Igralec *i1, Igralec *i2){
-  this->i1 = i1;
-  this->i2 = i2;
+  //this->i1 = i1;
+  //this->i2 = i2;
+  this->i1=new Igralec(i1->getIme(),i1->getSt());
+  this->i2=new Igralec(i2->getIme(),i2->getSt());
   this->naVrsti = i1;
   this->l = false;
   polje = new int*[6];

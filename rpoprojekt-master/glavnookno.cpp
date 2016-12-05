@@ -177,12 +177,68 @@ void glavnookno::updateUi(){
 }
 
 void glavnookno::zmagovalec2(int z){
+    QDialog* d = new QDialog(0,0);
+    //igra->lock();
+    /*
+    if(z==0){
+        if(i1->getZmage()>i2->getZmage()){
+            i1->zmaga();
+            this->z = i1;
+            zUi.lblWin->setText(zUi.lblWin->text() + " " + i1->getIme());
+        }else if(i1->getZmage()<i2->getZmage()){
+            i2->zmaga();
+            this->z = i2;
+            zUi.lblWin->setText(zUi.lblWin->text() + " " + i2->getIme());
+        }else{
+            Ui_izpis_neodloceno nUi;
+            nUi.setupUi(d);
+            int s = d->exec();
+            if (s == QDialog::Accepted)
+              this->start();
+            else
+              timer->stop();
+        }
+    }*/
     if(i1->getSt() == z){
         i1->zmaga();
         this->z = i1;
-    } else {
+    } else if(i2->getSt()==z){
         i2->zmaga();
         this->z = i2;
+    }else if(z==0){
+        if(i1->getZmage()>i2->getZmage()){
+            Ui_Izpis_zmagovalca zUi;
+            zUi.setupUi(d);
+            zUi.lblWin->setText(zUi.lblWin->text() + " " + i1->getIme());
+            int s = d->exec();
+
+            if (s == QDialog::Accepted)
+              this->start();
+            else {
+              timer->stop();
+             }
+              //updateUi();
+        }else if(i2->getZmage()>i1->getZmage()){
+            Ui_Izpis_zmagovalca zUi;
+            zUi.setupUi(d);
+            zUi.lblWin->setText(zUi.lblWin->text() + " " + i2->getIme());
+            int s = d->exec();
+
+            if (s == QDialog::Accepted)
+              this->start();
+            else {
+              timer->stop();
+            }
+              //updateUi();
+        }else if(i1->getZmage()==i2->getZmage()){
+            Ui_izpis_neodloceno nUi;
+            nUi.setupUi(d);
+            int s = d->exec();
+            if (s == QDialog::Accepted)
+              this->start();
+            else
+              timer->stop();
+        }
     }
     updateUi();
 }
