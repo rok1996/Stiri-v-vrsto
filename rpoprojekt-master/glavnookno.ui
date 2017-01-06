@@ -415,6 +415,19 @@ background-color: rgba(255, 255, 255, 200);</string>
             <string notr="true">border-image: url(:/img/tile.png);
 background-color: rgba(255, 255, 255, 200);</string>
            </property>
+           <widget class="QDialogButtonBox" name="buttonBox">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>0</y>
+              <width>156</width>
+              <height>23</height>
+             </rect>
+            </property>
+            <property name="standardButtons">
+             <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+            </property>
+           </widget>
           </widget>
          </item>
          <item row="5" column="2">
@@ -692,7 +705,7 @@ background-color: rgba(255, 255, 255, 200);</string>
      <x>0</x>
      <y>0</y>
      <width>559</width>
-     <height>19</height>
+     <height>21</height>
     </rect>
    </property>
    <widget class="QMenu" name="menu_tiri_v_vrsto">

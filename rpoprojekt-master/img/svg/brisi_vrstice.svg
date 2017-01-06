@@ -14,10 +14,10 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="GUMB_zapri.svg"
-   inkscape:export-filename="/home/vladimir/Projects/rpoprojekt/SLIKE/gumb2.png"
-   inkscape:export-xdpi="26.695089"
-   inkscape:export-ydpi="26.695089">
+   sodipodi:docname="GUMB_10zmag.svg"
+   inkscape:export-filename="C:\Users\Rok\Desktop\btn_10zmag.png"
+   inkscape:export-xdpi="26.66"
+   inkscape:export-ydpi="26.66">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -28,7 +28,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.49497475"
-     inkscape:cx="-67.995159"
+     inkscape:cx="210.80694"
      inkscape:cy="689.94765"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -58,28 +58,28 @@
      id="layer1">
     <path
        style="fill:#483737;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       d="m 71.941794,143.7458 c -24.155775,0 -43.59375,19.43798 -43.59375,43.59375 l 0,135.65626 c 0,24.15577 19.437975,43.59375 43.59375,43.59375 l 587.093766,0 c 24.15577,0 43.59375,-19.43798 43.59375,-43.59375 l 0,-135.65626 c 0,-24.15577 -19.43798,-43.59375 -43.59375,-43.59375 l -587.093766,0 z"
-       id="path3349"
+       d="m 99.067802,215.47141 c -27.269986,-0.95426 -47.441707,26.21912 -43.59375,52.11555 0.146736,43.86646 -0.295278,87.74766 0.224195,131.60478 1.783195,26.31045 28.659151,42.65139 53.311673,39.12342 193.87211,-0.14935 387.7592,0.29878 581.62196,-0.2242 26.31045,-1.78319 42.65139,-28.65915 39.12342,-53.31167 -0.14668,-43.39302 0.2952,-86.80079 -0.2242,-130.18447 -1.78319,-26.31045 -28.65915,-42.65138 -53.31167,-39.12341 -192.38387,0 -384.76775,0 -577.151628,0 z"
+       id="path4171"
        inkscape:connector-curvature="0" />
     <rect
-       style="fill:none;stroke:#ffffff;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;stroke:#ffffff;stroke-width:4;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="rect2985-1"
        width="636.67657"
        height="185.02098"
-       x="47.150387"
-       y="162.6572"
+       x="74.279175"
+       y="234.38278"
        ry="36.19976" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="277.83243"
-       y="276.58371"
-       id="text3351"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif"
+       x="175.20535"
+       y="353.33371"
+       id="text4137"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         id="tspan3353"
-         x="277.83243"
-         y="276.58371"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:60px;font-family:'Noto Serif';-inkscape-font-specification:'Noto Serif';fill:#ffffff">ZAPRI</tspan></text>
+         id="tspan4139"
+         x="175.20535"
+         y="353.33371"
+         style="font-size:60px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;font-family:Noto Serif;-inkscape-font-specification:Noto Serif">BRIŠI VRSTICE</tspan></text>
   </g>
 </svg>

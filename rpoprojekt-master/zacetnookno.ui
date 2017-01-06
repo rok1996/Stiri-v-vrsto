@@ -43,11 +43,62 @@
         <bool>false</bool>
        </property>
        <property name="styleSheet">
-        <string notr="true">background-image:url(:/img/btn_10zmag.png);
+        <string notr="true">background-image:url(:/img/gumb1.png);
 border-image:none;
 border:none;
 background-color: rgba(255, 255, 255, 0);
 </string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnNaGlavo">
+       <property name="minimumSize">
+        <size>
+         <width>200</width>
+         <height>66</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>200</width>
+         <height>66</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image:url(:/img/na_glavo.png);
+border-image:none;
+border:none;
+background-color: rgba(255, 255, 255, 0);
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton">
+       <property name="minimumSize">
+        <size>
+         <width>200</width>
+         <height>66</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>200</width>
+         <height>66</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/img/brisi_vrstice.png);
+border-image:none;
+border:none;
+background-color: rgba(255, 255, 255, 0)</string>
        </property>
        <property name="text">
         <string/>
@@ -123,6 +174,22 @@ background-color: rgba(255, 255, 255, 0)</string>
     <hint type="destinationlabel">
      <x>199</x>
      <y>149</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnNaGlavo</sender>
+   <signal>clicked()</signal>
+   <receiver>ZacetnoOkno</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>109</x>
+     <y>224</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>299</x>
+     <y>224</y>
     </hint>
    </hints>
   </connection>

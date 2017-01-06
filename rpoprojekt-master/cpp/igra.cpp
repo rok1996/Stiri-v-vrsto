@@ -1,12 +1,9 @@
 #include "igra.h"
-#include <QMessageBox>
 
 Igra::Igra(): i1(NULL), i2(NULL), polje(NULL), naVrsti(NULL), l(false){}
 Igra::Igra(Igralec *i1, Igralec *i2){
-  //this->i1 = i1;
-  //this->i2 = i2;
-  this->i1=new Igralec(i1->getIme(),i1->getSt());
-  this->i2=new Igralec(i2->getIme(),i2->getSt());
+  this->i1 = i1;
+  this->i2 = i2;
   this->naVrsti = i1;
   this->l = false;
   polje = new int*[6];
@@ -40,9 +37,8 @@ bool Igra::preveriNeodloceno(){
 }
 
 //preverjanje zmagovalca
-bool Igra::preveriZmaga(int x, int y, int p, int &ii){
+bool Igra::preveriZmaga(int x, int y, int p){
   int v=0, i = x, j = y;
-  int iii=ii;
   bool z = false;
   //vodoravno
   while(i<6 && j<7 && polje[i][j]==p){
@@ -54,26 +50,21 @@ bool Igra::preveriZmaga(int x, int y, int p, int &ii){
     v++;
     j--;
   }
-  if(v >= 4){
-        ii=i;
-        z = true;
-  }
+  if(v >= 4)
+    z = true;
   //navpično
   v = 0, i = x, j = y;
   while(i<6 && j<7 && polje[i][j]==p){
     v++;
     i++;
   }
-  iii=i-1;
   i = x - 1;
   while(i>=0 && j<7 && polje[i][j]==p){
     v++;
     i--;
   }
-  if(v >= 4){
-      ii=iii;
-      z = true;
-  }
+  if(v >= 4)
+    z = true;
   //diagonalno 1
   v = 0, i = x, j = y;
   while(i<6 && j<7 && polje[i][j]==p){
@@ -81,7 +72,6 @@ bool Igra::preveriZmaga(int x, int y, int p, int &ii){
     i++;
     j++;
   }
-  iii=i-1;
   i = x - 1;
   j = y - 1;
   while(i>=0 && j>=0 && polje[i][j]==p){
@@ -89,10 +79,8 @@ bool Igra::preveriZmaga(int x, int y, int p, int &ii){
     i--;
     j--;
   }
-  if(v >= 4){
-      ii=iii;
-      z = true;
-  }
+  if(v >= 4)
+    z = true;
   //diagonalno 2
   v = 0, i = x, j = y;
   while(i>=0 && j<7 && polje[i][j]==p){
@@ -107,10 +95,8 @@ bool Igra::preveriZmaga(int x, int y, int p, int &ii){
     i++;
     j--;
   }
-  if(v >= 4){
-      ii=i-1;
-      z = true;
-  }
+  if(v >= 4)
+    z = true;
 
   return z;
 }

@@ -13,11 +13,11 @@
    height="1052.3622047"
    id="svg2"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.48.5 r10040"
    sodipodi:docname="GUMB_zacni.svg"
-   inkscape:export-filename="/home/vladimir/Projects/rpoprojekt/SLIKE/gumb1.png"
-   inkscape:export-xdpi="26.655449"
-   inkscape:export-ydpi="26.655449">
+   inkscape:export-filename="C:\Users\Public\rpoprojekt-master\img\gumb1.png"
+   inkscape:export-xdpi="26.66"
+   inkscape:export-ydpi="26.66">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -34,9 +34,9 @@
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1366"
-     inkscape:window-height="715"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-height="706"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:snap-object-midpoints="true"
      inkscape:snap-center="true" />
@@ -48,7 +48,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -62,24 +62,24 @@
        id="path4171"
        inkscape:connector-curvature="0" />
     <rect
-       style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;stroke:#ffffff;stroke-width:4;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="rect2985-1"
        width="636.67657"
        height="185.02098"
-       x="28.502808"
+       x="28.502806"
        y="233.18161"
        ry="36.19976" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="175.20535"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif"
+       x="96.880157"
        y="353.33371"
        id="text4137"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4139"
-         x="175.20535"
+         x="96.880157"
          y="353.33371"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:60px;font-family:'Noto Serif';-inkscape-font-specification:'Noto Serif';fill:#ffffff">ZAČNI IGRO</tspan></text>
+         style="font-size:60px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;font-family:Noto Serif;-inkscape-font-specification:Noto Serif">IGRAJ KLASIČNO</tspan></text>
   </g>
 </svg>

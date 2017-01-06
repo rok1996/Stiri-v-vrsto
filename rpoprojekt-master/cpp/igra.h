@@ -28,7 +28,7 @@ public:
   int *potez(int y, int p);
   int *undo2();
   bool preveriNeodloceno();
-  bool preveriZmaga(int x, int y, int p, int &ii);
+  bool preveriZmaga(int x, int y, int p);
   /*bool preveriVodoravno(int x, int y, int p);
   void preveriNavpicno(int y, int p);
   void preveriDiagonalo1(int y, int p);
